@@ -1,5 +1,7 @@
 # Pico Lamp - Emergency Lamp using Raspberry Pi Pico
 
+![](output.gif)
+
 ## TODO
 1. Need to add Readme/Usage
 2. Update the ESP Code to use the host-name
