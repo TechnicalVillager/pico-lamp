@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/light.css">
+    <title>Pico Lamp</title>
+  </head>
+  <body>
+    <h1>
+      <center>
+        PICO <kbd>LAMP</kbd>
+      </center>
+    </h1>
+    <center>
+      <button onclick="window.location.href='/dark'" style="margin: 0px; padding: 10px; line-height: 1;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+      </button>
+    </center>
+    <h2>
+      <center>
+        Patterns
+      </center>
+    </h2>
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;">
+        <button onclick="window.location.href='/breathing-lights'">
+          Breathing Lights
+        </button>
+        <button onclick="window.location.href='/snake-pattern'">
+          Snake Pattern
+        </button>
+    </div>
+
+    <h2>
+      <center>
+        Color Picker
+      </center>
+    </h2>
+    <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center;">
+        <button onclick="window.location.href='/red'" style="color: red;">
+          RED
+        </button>
+        <button onclick="window.location.href='/green'" style="color: green;">
+          GREEN
+        </button>
+        <button onclick="window.location.href='/blue'" style="color: blue;">
+          BLUE
+        </button>
+        <button onclick="window.location.href='/yellow'" style="color: yellow;">
+          YELLOW
+        </button>
+        <button onclick="window.location.href='/pink'" style="color: deeppink;">
+          PINK
+        </button>
+        <button onclick="window.location.href='/white'">
+          WHITE
+        </button>
+        <button onclick="window.location.href='/off'">
+          OFF
+        </button>
+    </div>
+    <!-- Footer -->
+      <center style="padding-top: 30px; padding-bottom: 30px;">
+        <small>
+          Copyright © <a href="https://technicalvillager.github.io/" class="secondary" target="_blank">Saiffullah Sabir Mohamed</a> <script>document.write(new Date().getFullYear())</script>
+        </small>
+      </center>
+  </body>
+</html>
